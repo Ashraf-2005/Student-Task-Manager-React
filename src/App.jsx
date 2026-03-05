@@ -1,14 +1,7 @@
-import Tasks from "./pages/Tasks";
+import StudentTaskManager from "./pages/StudentTaskManager";
 
 function App() {
-  return (
-    <div className="container">
-      <h1>Student Task Manager</h1>
-      <p className="subtitle">Manage your daily tasks easily</p>
-
-      <Tasks />
-    </div>
-  );
+  return <StudentTaskManager />;
 }
 
 export default App;
